@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Document</title>
+  <link href='https://fonts.googleapis.com/css?family=Roboto Mono' rel='stylesheet'>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>To-do List</h1>
+  <div class="to-do-input-grid">
+   
+    <input placeholder="add task" class="taskInput inpt">
+    <input type="date" class="dateInput date">
+    <button class="addButton add-btn" onclick="addItem();"><span class="add">Add</span></button>
+    <button onclick="cleartodo();" class="clearList clrbtn"><span class="clear">Clear</span></button>
+  </div>
+  
+
+  <div class="to-do-list main" ></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
