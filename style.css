@@ -1,21 +1,29 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
+
 .body , html{
   background-color: rgb(255, 255, 255);
   font-family: Arial;
+  
 }
 
 h1{
   position: relative;
-  left: 30%;
+  left: 400px;
   transform: translateX(-50%);
   padding: 10px;
   display: inline-block;
-  font-family: "Roboto Mono",monospace;
-  
- 
- 
-
-  
+  color: royalblue;
+  font-size: 48px;
+  font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  text-shadow: 2px 2px 0px rgb(57, 9, 17);
 }
+
+
 
 .main{
   font-size: 16px;
@@ -29,6 +37,7 @@ h1{
   padding-bottom: 20px;
   padding-top: 20px;
   margin-top: 20px;
+  margin-left: 20%;
  
 }
 
@@ -45,13 +54,15 @@ input::-webkit-input-placeholder {
   color: white;  
   font-family: "Roboto Mono",monospace; 
   font-size: 16px;
-  padding: 20px;
+  padding-left: 20px;
+  
 }
 
+
 .inpt:hover{
-  background-color: rgb(252, 252, 252);
+  background-color: rgb(8, 15, 102);
   border: 2px solid #0080ff;
-  color:#0080ff ;
+  color:#ffffff ;
 
 }
 
@@ -84,8 +95,9 @@ input::-webkit-input-placeholder {
 
 .to-do-input-grid{
   display: grid;
-  grid-template-columns: 225px 185px 55px 55px;
+  grid-template-columns: 225px 185px 55px 80px;
   column-gap: 10px;
+  margin-left: 20%;
 }
 
 
@@ -96,6 +108,11 @@ input::-webkit-input-placeholder {
   margin-left:30px ;
   margin-bottom: 8px;
   border-radius: 4px;
+  padding: 5px 0px;
+}
+
+.delItem:hover{
+  background-color: crimson;
 }
 
 .clrbtn {
@@ -103,6 +120,7 @@ input::-webkit-input-placeholder {
   border: none;
   color: white;
   border-radius: 4px;
+  
 }
 
 .add-btn{
@@ -156,6 +174,5 @@ input::-webkit-input-placeholder {
   font-size: 12px;
   padding-left: 20px;
   
-
   
 }
