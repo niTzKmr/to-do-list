@@ -2,25 +2,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
 
 
+@import url('https://fonts.cdnfonts.com/css/graphik-trial');
+
+
 .body , html{
-  background-color: rgb(255, 255, 255);
+  background-color: #131314;
   font-family: Arial;
+  font-weight: bold;
   
 }
 
 h1{
-  position: relative;
-  left: 400px;
-  transform: translateX(-50%);
-  padding: 10px;
-  display: inline-block;
-  color: royalblue;
-  font-size: 48px;
-  font-family: "Pixelify Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  text-shadow: 2px 2px 0px rgb(57, 9, 17);
+  text-align: center;
+  color: #ffffff;
+  margin-bottom:50px ;
+  font-family: graphil-trial;
+  
 }
 
 
@@ -28,21 +25,23 @@ h1{
 .main{
   font-size: 16px;
   display: grid;
-  grid-template-columns: 200px 150px 100px;
+  grid-template-columns: 400px 250px 50px;
   color: rgb(255, 255, 255);
-  width: 470px;
-  background-color: rgb(66, 120, 238);
+  
+  width: 800px;
+  background-color: rgba(255, 255, 255, 0.504);
   border-radius: 6px;
   padding-left: 20px;
   padding-bottom: 20px;
   padding-top: 20px;
   margin-top: 20px;
   margin-left: 20%;
+  box-shadow:0px 8px 1px  #ffffff3b;
  
 }
 
 .inpt{
-  border: 2px solid royalblue;
+  border: none;
   border-radius: 5px;
   color: rgb(255, 255, 255);
   background-color: #0080ff;
@@ -90,12 +89,9 @@ input::-webkit-input-placeholder {
 }
 
 
-
-
-
 .to-do-input-grid{
   display: grid;
-  grid-template-columns: 225px 185px 55px 80px;
+  grid-template-columns: 300px 200px 85px 80px;
   column-gap: 10px;
   margin-left: 20%;
 }
@@ -109,7 +105,12 @@ input::-webkit-input-placeholder {
   margin-bottom: 8px;
   border-radius: 4px;
   padding: 5px 0px;
+  height: 35px;
+  width: 35px;
+  font-weight: bolder;
 }
+
+
 
 .delItem:hover{
   background-color: crimson;
@@ -124,7 +125,7 @@ input::-webkit-input-placeholder {
 }
 
 .add-btn{
-  background-color: royalblue;
+  background-color: #009DFF;
   color: white;
   border: none;
   border-radius: 4px;
@@ -155,24 +156,3 @@ input::-webkit-input-placeholder {
   
 }
 
-.clear{
-  display: inline-block;
-  transition: 0.1s ease-in-out ;
-  padding-top: 1px;
-}
-
-
-.clear:hover::before{
-  content: "\2715";
-  color: rgb(255, 255, 255);
-  font-weight: bold;
-}
-
-.clear:hover{
-  content: "";
-  color: transparent;
-  font-size: 12px;
-  padding-left: 20px;
-  
-  
-}

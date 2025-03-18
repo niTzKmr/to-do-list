@@ -23,7 +23,7 @@ function renderHTML(){
       <div> ${dueDate} </div>
       <button onclick='
           clearItem(${i})' class="delItem"> 
-          Delete 
+          X
       </button>
      ` ;
     todoListHTML += html;
@@ -67,6 +67,7 @@ else{
 }
 
 inputElement.value = '';
+dateElement.value = '';
 renderHTML();
 }
 
